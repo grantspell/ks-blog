@@ -1,0 +1,9 @@
+<div class="col-md-8 col-offset-2">
+    <%= form_for @post do |f| %>
+        <%= f.label :title %><br>
+        <%= f.text_field :title, class: 'form-control' %><br>
+        <%= f.label :body %><br>
+        <%= f.cktext_area :content, class: 'form-control' %><br>
+        <%= f.submit :Update %>
+    <% end %>
+</div>
