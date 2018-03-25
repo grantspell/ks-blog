@@ -57,3 +57,4 @@ gem 'ckeditor'
 
 # Paperclip
 gem 'paperclip', '~> 5.0.0'
+
